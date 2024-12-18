@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title> Calendari</title>
+        <style>
+            body {
+                background-color: rgb(222, 232, 255);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            table{
+                color: rgb(66, 75, 182);
+                background-color: rgb(139, 187, 253);
+                width: 800px;
+                margin: auto;
+                text-align: center;
+            }
+            th{
+                color: rgb(136, 160, 255);
+                background-color: rgb(19, 19, 92);
+            }
+            .MP07{
+                background-color: rgb(133, 133, 222);
+            }
+            .MP07:hover{
+                background-color: rgb(98, 0, 255);
+            }
+            .MP08{
+                background-color: rgb(98, 107, 231);
+            }
+            .MP08:hover{
+                background-color: blueviolet;
+                color: antiquewhite;
+            }
+            .MP09{
+                background-color: rgb(118, 131, 230);
+            }
+            .PATI{
+                background-color: rgb(115, 119, 192);
+                color: aliceblue;
+            }
+            .TUTORIA{
+                background-color: rgb(154, 151, 255);
+            }
+            .TUTORIA:hover{
+                background-color: aliceblue;
+            }
+            /* Com combinar etiquetes/estils */
+            .mp07, .mp08,.mp09 {
+                color: rgb(16, 12, 37);
+            }
+            .MP09:hover, .MP08:hover, .MP07:hover, .TUTORIA:hover{
+                background-color: darkslateblue;     
+                color: aliceblue;
+           }
+
+        </style>
+    </head>
+    <body >
+        <h1>Calendari 24-25</h1>
+
+        <table>
+            <!--fila1>casella+casella+casella / tr= tableRow td= table division-->
+           
+            <tr>
+                <td width="120px"></td>
+                <th width="100px">DILLUNS</th>
+                <th width="100px">DIMARTS</th>
+                <th width="100px">DIMECRES</th>
+                <th width="100px">DIJOUS</th>
+                <th width="100px">DIVENDRES</th>
+            </tr>
+            <tr> 
+                <td>15:30 - 16:00 h</td>
+                <td rowspan="5" class="MP07">MP07</td>
+                <td></td>
+                <td></td>
+                <td rowspan="5"class="MP07">MP07</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16:00 - 16:30 h</td>
+                <td rowspan="2" class="MP09">MP09</td>
+                <td></td>
+                <td rowspan="4" class="MP08">MP08</td> 
+            </tr>
+            <tr>
+                <td>16:30 - 17:00 h</td>
+                <td rowspan="3" class="MP08">MP08</td> 
+            </tr>
+            <tr>
+                <td>17:00 - 17:30 h</td>
+                <td rowspan="2" class="TUTORIA">TUTORIA</td>
+            <tr> 
+                <td>17:30 - 18:00 h</td>
+            </tr>
+            <tr>
+                <td>18:00 - 18:30 h</td>
+                <td colspan="5" class="PATI">PATI</td>           
+            </tr> 
+            <tr>
+                <td>18:30 - 19:00 h</td>
+                <td rowspan="4" class="MP09">MP09</td>
+                <td rowspan="4" class="MP09">MP09</td>
+                <td></td>
+                <td rowspan="4" class="MP08">MP08</td>
+                <td rowspan="4" class="MP08">MP08</td>
+            </tr>
+            <tr>
+                <td>19:00 - 19:30 h</td>
+                <td rowspan="4" class="MP08">MP08</td>
+            </tr>
+            <tr>
+                <td>19:30 - 20:00 h</td>
+            </tr>
+            <tr>
+                <td>20:00 - 20:30 h</td>
+            </tr>
+            <tr>
+                <td>20:30 - 21:00 h</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
