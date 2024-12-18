@@ -1,0 +1,192 @@
+:root {
+    --colorito: green;
+    --colorita: blue;
+  }
+
+body{
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+}
+header{
+    height: 180px;
+}
+nav{
+    height: 180px;
+}
+article{
+    overflow: hidden;
+    background-color: random(green, orange);
+}
+.contenidor{
+    width: 1716px;
+    margin: 0px auto;
+    overflow: hidden;
+    text-align: center;
+}
+.entrada{
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+.reaccions{
+    height: 84px;
+}
+.circulo{
+    background-color: wheat;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 28px;
+    display: inline-block;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px purple;
+
+    background-image: url(../img/fotoPerfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
+.circulo::after{
+    content:"+";
+    display: block;
+    background-color: crimson;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: azure;
+    font-size: 32px;
+    border: solid 5px white;
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+.circulo:hover{
+    opacity: 80%;
+}
+/* _______________ELEMENTS ARTICLE_______________*/
+.fotoautor{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url(../img/fotoPerfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px purple;
+    float: left;
+}
+.autor{
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.moment{
+    width: 268px;
+    color: dimgrey;
+    font-size: 20px;
+}
+.esquerra{
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+.dreta{
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+.comentari{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+}
+.like{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: left;
+}
+.mes{
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+svg:hover{
+    fill: crimson;
+    size: 50px;
+}
+/* _______________ELEMENTS HEADER_______________*/
+.home{
+    width: 220px;
+    height: 45px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/ifpagram_09.jpg);
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+
+.menu{
+    width: 220px;
+    height: 45px;
+    margin: 50px 520px 0 520px;
+    display: inline-block;
+}
+.menu li{
+    width: 32px;
+    height: 32px;
+    margin: 3px 8px;
+    display: inline-block;
+    background-image: url(../img/ifpagram_12.jpg);
+}
+.menu .inici{
+    background-position: -10px -2px;
+}
+.menu .cerca{
+    background-position: -95px -2px; /*horizontal- vertical*/
+}
+.menu .reels{
+    background-position: -177px -2px;
+}
+.menu .favorits{
+    background-position: -262px -2px;
+}
+.perfil{
+    width: 220px;
+    height: 45px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+.perfil li{
+    width: 32px;
+    height: 32px;
+    margin: 3px 8px;
+    display: inline-block;
+}
+.perfil .send{
+    width: 35px;
+    height: 35px;
+    margin: 3px 8px;
+    display: inline-block;
+    background-image: url(../img/ifpagram_02.png);
+    background-color: aliceblue;
+}
+.perfil .myprofile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(../img/fotoPerfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
